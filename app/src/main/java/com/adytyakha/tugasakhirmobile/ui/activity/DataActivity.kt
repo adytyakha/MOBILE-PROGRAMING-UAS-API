@@ -17,14 +17,13 @@ class DataActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tvNameAplikationID.text = BuildConfig.APPLICATION_ID
+
 
         val adapter = FragmentPagerItemAdapter(
             supportFragmentManager, FragmentPagerItems.with(this)
                 .add("Jadwal Kuliah", JadwalKuliahFragment::class.java)
                 .add("Profil", ProfilFragment::class.java)
-//                .add("Bulan Hijriah", SecondFragment::class.java)
-//                .add("Profil", FourFragment::class.java)
+
                 .create()
         )
 
