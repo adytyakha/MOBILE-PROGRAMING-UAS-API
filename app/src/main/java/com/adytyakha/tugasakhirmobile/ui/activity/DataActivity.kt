@@ -22,7 +22,7 @@ class DataActivity : AppCompatActivity() {
         val adapter = FragmentPagerItemAdapter(
             supportFragmentManager, FragmentPagerItems.with(this)
                 .add("Jadwal Kuliah", JadwalKuliahFragment::class.java)
-                .add("Profil", ProfilFragment::class.java)
+                .add("Biodata", ProfilFragment::class.java)
 
                 .create()
         )

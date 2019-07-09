@@ -124,8 +124,6 @@ class ProfilFragment : Fragment() {
                     if (BuildConfig.NPM.equals("16670009")) {
                         nik.text = "Rahasia"
                         nisn.text = "Rahasia"
-                        ayah.text = "Rahasia"
-                        ibu.text = "Rahasia"
                         kelamin.text = "Laki-laki"
                         activity?.let { it1 ->
                             Glide.with(it1).load("https://scontent-sin2-1.cdninstagram.com/vp/5ebb72ab9b823f645738d7d645fd3659/5DBE0301/t51.2885-19/s150x150/51877606_2287715151272514_2335104179019710464_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com")
